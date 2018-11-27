@@ -20,9 +20,19 @@ namespace FOOP_Lab8
     /// </summary>
     public partial class MainWindow : Window
     {
+        public Random r = new Random();
+        public int Number1 { get; set; }
+        public int Number2 { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Btn_StartGame_Click(object sender, RoutedEventArgs e)
+        {
+            Number1 = r.Next(0, 20);
+            Number2 = r.Next(0, 20);
         }
     }
 }
