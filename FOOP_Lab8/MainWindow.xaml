@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="455" Width="389">
     <Grid>
-        <Button x:Name="btn_StartGame" Content="Start Game" HorizontalAlignment="Left" Margin="160,71,0,0" VerticalAlignment="Top" Width="75" Click="Btn_StartGame_Click"/>
-        <TextBlock x:Name="tbk_Initial" HorizontalAlignment="Left" Margin="140,122,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="32" Width="133"/>
+        <Button x:Name="btn_StartGame" Content="Start Game" HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" Width="75" Click="Btn_StartGame_Click"/>
+        <TextBlock x:Name="tbk_Initial" HorizontalAlignment="Center" Margin="0,118,0,0" TextWrapping="Wrap" Text="Number: " VerticalAlignment="Top" Height="32" Width="133"/>
         <RadioButton x:Name="rad_Bigger" Content="Bigger" HorizontalAlignment="Left" Margin="85,197,0,0" VerticalAlignment="Top" GroupName="Guess"/>
         <RadioButton x:Name="rad_Small" Content="Smaller" HorizontalAlignment="Left" Margin="206,197,0,0" VerticalAlignment="Top" GroupName="Guess"/>
         <Button x:Name="btn_Guess" Content="Guess" HorizontalAlignment="Left" Margin="160,293,0,0" VerticalAlignment="Top" Width="75"/>

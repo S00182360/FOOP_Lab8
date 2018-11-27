@@ -33,6 +33,7 @@ namespace FOOP_Lab8
         {
             Number1 = r.Next(0, 20);
             Number2 = r.Next(0, 20);
+            tbk_Initial.Text = string.Format("Number: {0}", Number1);
         }
     }
 }
